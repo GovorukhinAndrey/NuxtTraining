@@ -18,7 +18,7 @@ export default {
     }
   },
   data: () => ({
-    pageTitle: 'Users Title',
+    pageTitle: 'Users Title'
   }),
   computed: {
     users() {
@@ -32,7 +32,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>

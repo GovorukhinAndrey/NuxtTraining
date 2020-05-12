@@ -1,5 +1,5 @@
 export const state = () => ({
-  token: null,
+  token: null
 })
 
 export const getters = {
@@ -8,7 +8,7 @@ export const getters = {
 
 export const mutations = {
   setToken(state, token) {
-    state.token = token;
+    state.token = token
   },
   clearToken(state) {
     state.token = null
