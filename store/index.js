@@ -16,6 +16,10 @@ export const mutations = {
 }
 
 export const actions = {
+  // вызывается один раз в серверной части
+  nuxtServerInit({dispatch}) {
+    console.log('nuxtServerInit')
+  },
  login({commit}) {
     commit('setToken', 'truetoken')
   },
