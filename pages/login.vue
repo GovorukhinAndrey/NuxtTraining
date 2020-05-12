@@ -17,7 +17,13 @@
 
 <script>
 export default {
-  layout: 'empty'
+  layout: 'empty',
+  methods: {
+    onSubmit() {
+      this.$store.dispatch('login')
+      this.$router.push('/')
+    }
+  },
 }
 </script>
 
