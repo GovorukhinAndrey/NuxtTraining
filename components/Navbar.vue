@@ -5,7 +5,7 @@
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <nuxt-link to="/" class="nav-link" active-class="active" exact>Home</nuxt-link>
+          <nuxt-link to="/" class="nav-link" active-class="active" exact no-prefetch>Home</nuxt-link>
         </li>
         <li class="nav-item">
           <nuxt-link to="/about" class="nav-link" active-class="active">About</nuxt-link>
