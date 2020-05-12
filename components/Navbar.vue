@@ -10,6 +10,9 @@
         <li class="nav-item">
           <nuxt-link to="/about" class="nav-link" active-class="active">About</nuxt-link>
         </li>
+        <li class="nav-item">
+          <nuxt-link to="/users" class="nav-link" active-class="active">Users</nuxt-link>
+        </li>
       </ul>
     </div>
   </nav>
